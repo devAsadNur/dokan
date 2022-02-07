@@ -34,6 +34,8 @@ if ( function_exists( 'yoast_breadcrumb' ) ) {
 
                 <?php do_action( 'dokan_store_profile_frame_after', $store_user->data, $store_info ); ?>
 
+                <?php do_action( 'dokan_store_before_all_product_section', $store_user ); ?>
+
                 <?php if ( have_posts() ) { ?>
 
                     <div class="seller-items">
@@ -57,6 +59,8 @@ if ( function_exists( 'yoast_breadcrumb' ) ) {
                     <p class="dokan-info"><?php esc_html_e( 'No products were found of this vendor!', 'dokan-lite' ); ?></p>
 
                 <?php } ?>
+
+                <?php do_action( 'dokan_store_after_all_product_section', $store_user ); ?>
             </div>
 
         </div><!-- .dokan-single-store -->
