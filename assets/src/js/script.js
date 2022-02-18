@@ -116,8 +116,8 @@ jQuery(function($) {
       var self = this;
 
       //image upload
-      $('body').on('click', 'a.dokan-banner-drag', this.imageUpload);
-      $('body').on('click', 'a.dokan-remove-banner-image', this.removeBanner);
+      $('body').on('click', '.dokan-banner-drag', this.imageUpload);
+      $('body').on('click', '.dokan-remove-banner-image', this.removeBanner);
 
       $('a.dokan-pro-gravatar-drag').on('click', this.gragatarImageUpload);
       $('a.dokan-gravatar-drag').on('click', this.simpleImageUpload);

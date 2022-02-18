@@ -4330,6 +4330,9 @@ div.media-sidebar a.edit-attachment {
 .dokan-single-store .dokan-store-tabs ul li a:hover {
   background: #eee;
 }
+.dokan-single-store .dokan-promo-banner {
+  margin: 25px auto;
+}
 .dokan-store-widget input[type=text],
 .dokan-store-widget input[type=email],
 .dokan-store-widget textarea {
